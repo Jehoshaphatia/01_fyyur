@@ -539,7 +539,7 @@ if not app.debug:
 
 # Default port:
 if __name__ == '__main__':
-    app.run()
+    app.run(host="localhost", port=8080)
 
 # Or specify port manually:
 '''
